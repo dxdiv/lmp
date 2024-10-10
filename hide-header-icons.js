@@ -1,7 +1,7 @@
 "use strict";
 (function() {
     var a = function() {
-        [".open--premium", ".open--feed", ".notice--icon", ".open--profile", ".console-screen", ".console-screen", ".full-screen"].forEach(function(a) {
+        [".open--premium", ".open--feed", ".notice--icon", ".open--profile", ".console-screen", ".full-screen"].forEach(function(a) {
             return $(a).hide()
         }), [".head__split"].forEach(function(a) {
             document.querySelector(a).style.width = 0, document.querySelector(a).style.margin = "0 0.7em"
